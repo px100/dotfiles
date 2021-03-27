@@ -20,7 +20,4 @@ sh git/git.sh
 
 sh tmux/tmux.sh
 
-sh alacritty/alacritty.sh
-
 sh vscode/vscode.sh
-
