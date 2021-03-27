@@ -1,0 +1,12 @@
+session_name: Session
+windows:
+- window_name: dev
+  start_directory: ~/dev
+  layout: tiled
+  panes:
+    -
+- window_name: dotfiles
+  start_directory: ~/dev/dotfiles
+  layout: tiled
+  panes:
+    -

@@ -1,0 +1,123 @@
+{
+  "coc.preferences.maxFileSize": "1MB",
+
+  "diagnostic.checkCurrentLine": false,
+  "diagnostic.displayByAle": false,
+  "diagnostic.enable": true,
+  "diagnostic.enableMessage": "always",
+  "diagnostic.enableSign": true,
+  "diagnostic.errorSign": "⚑",
+  "diagnostic.highlightOffset": 1000,
+  "diagnostic.hintSign": "⚑",
+  "diagnostic.infoSign": "⚑",
+  "diagnostic.separateRelatedInformationAsDiagnostics": true,
+  "diagnostic.level": "hint",
+  "diagnostic.messageTarget": "float",
+  "diagnostic.refreshOnInsertMode": true,
+  "diagnostic.virtualText": false,
+  "diagnostic.virtualTextPrefix": "» ",
+  "diagnostic.warningSign": "⚑",
+
+  "suggest.echodocSupport": true,
+  "suggest.minTriggerInputLength": 1,
+  "suggest.snippetIndicator": " ⭐︎",
+  "suggest.timeout": 2000, // down from 5000
+
+  "eslint.autoFixOnSave": false,
+  "eslint.run": "onType",
+
+  "javascript.validate.enable": true,
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+  "javascript.preferences.quoteStyle": "single",
+  "javascript.updateImportsOnFileMove.enable": false,
+
+  "explorer.file.hiddenRules": {
+    "extensions": [
+      "o",
+      "a",
+      "obj",
+      "pyc"
+    ],
+    "filenames": [
+      ".vscode",
+      ".git"
+    ],
+    "patternMatches": []
+  },
+  "explorer.icon.enableNerdfont": true,
+  "explorer.quitOnOpen": true,
+  "explorer.keyMappings.global": {
+    "<cr>": [
+      "expandable?",
+      ["expanded?", "collapse", "expand"],
+      "open"
+    ],
+    "l": [
+      "expandable?",
+      ["expanded?", "collapse", "expand"],
+      "open"
+    ],
+    "h": [
+      "expandable?",
+      ["expanded?", "collapse", "expand"],
+      "open"
+    ],
+    "c": "addFile",
+    "C": "addDirectory",
+    "s": "open:vsplit",
+    "<esc>": "quit"
+  },
+  "cSpell.userWords": [
+    "Nerdfont",
+    "Spotify",
+    "duckduckgo",
+    "echodoc",
+    "incircles",
+    "mixins",
+    "nand",
+    "tiktok",
+    "youtube"
+  ],
+  "coc.source.emoji.filetypes": [
+    "markdown",
+    "gitcommit"
+  ],
+  "snippets.extends": {
+    "cpp": ["c"],
+    "javascriptreact": ["javascript"],
+    "typescript": ["javascript"]
+  },
+  "git.enableGutters": false,
+  "suggest.completionItemKindLabels": {
+    "method": "  ",
+    "function": "  ",
+    "variable": "[]",
+    "field": "  ",
+    "typeParameter": "<>",
+    "constant": "  ",
+    "class": " פּ ",
+    "interface": " 蘒",
+    "struct": "  ",
+    "event": "  ",
+    "operator": "  ",
+    "module": "  ",
+    "property": "  ",
+    "enum": " 練",
+    "reference": "  ",
+    "keyword": "  ",
+    "file": "  ",
+    "folder": " ﱮ ",
+    "color": "  ",
+    "unit": " 塞 ",
+    "snippet": "  ",
+    "text": "  ",
+    "constructor": "  ",
+    "value": "  ",
+    "enumMember": "  "
+  },
+  "snippets.priority": 1,
+  "coc.source.file.priority": 2,
+  "coc.source.around.priority": 3,
+  "coc.source.buffer.priority": 4,
+  "suggest.languageSourcePriority": 99
+}
